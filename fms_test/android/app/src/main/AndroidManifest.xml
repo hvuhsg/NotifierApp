@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.fms_test">
+
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+
    <application
-        android:label="QwhaleNotifier"
+        android:label="Qfire"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"
